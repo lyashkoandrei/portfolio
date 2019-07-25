@@ -1,0 +1,8 @@
+resource controller - контроллер в котором определены методы для CRUD операций (create, read, update, delete) pphp artisan make:controller PhotoController --resource
+
+index - должен выводить список объектов
+create - метод для добавления нового объекта
+show - отображение одной записи
+edit - отображение формя для редактирования записи
+update - обновление записи в базе данных
+delete - удалить запись из базы
